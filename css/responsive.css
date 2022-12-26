@@ -1,0 +1,156 @@
+@media(max-width:1200px){
+    .navItem{
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }
+    .navItem1{
+        display: none;
+    }
+    .navItem2{
+        width: 55%;
+    }
+    .navItem3{
+        display: none;
+    }
+    .mobileIcon{
+        display: block;
+        position: fixed;
+    }
+}
+
+@media(max-width:991px){
+    .firstPageItem1{
+        margin-top: 110px;
+        width: 100%;
+        text-align: center;
+    }
+    .firstPageItem2{
+        width: 100%;
+    }
+
+    .smartHomeItem1{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .smartHomeItem2{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .systemItems{
+        margin-top: 60px;
+    }
+    .systemCard1{
+        margin-bottom: 5px;
+    }
+    .securityMode{
+        margin-top: 70px;
+    }
+    .securityModeItems{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .securityModeItem1{
+        margin: 20px;
+    }
+    .aboutUsItem2 h1{
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:768px){
+    .systemItemsBackground{
+        padding: 10px;
+    }
+    .systemCard1{
+        margin: 5px 0;
+    }
+    .systemItemsBackground{
+        padding: 0;
+    }
+    .smartHome2Item1{
+        width: 100%;
+    }
+    .smartHome2Item2{
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .monitorHomeRemotelyItem1 {
+        width: 100%;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .monitorHomeRemotelyItem2{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .monitorHomeRemotelyItem2 img{
+        width: 50%;
+    }
+    .aboutUs{
+        margin-top: 30px;
+    }
+    .aboutUsItem1{
+        width: 100%;
+    }
+    .aboutUsItem2{
+        width: 100%;
+    }
+    .yourHouse{
+        margin-top: 70px;
+    }
+    .yourHouse h1{
+        padding-top: 20px;
+    }
+    .yourHouseImgs{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .yourHouseImg1{
+        width: 60%;
+    }
+    .yourHouseImg2{
+        width: 60%;
+    }
+    .yourHouseImg3{
+        width: 60%;
+    }
+    .footerItem1{
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footerItem2{
+        width: 100%;
+    }
+}
+
+@media(max-width:576px){
+    .logo img{
+        width: 80%;
+    }
+    .firstPageItem1 p:nth-child(1){
+        font-size: 50px;
+    }
+    .firstPageItem1 p:nth-child(2){
+        font-size: 40px;
+    }
+}
+
+
+@media(max-width:375px){
+    .systemItemsBackground{
+        padding: 5px 0;
+    }
+    .footerItem1{
+        font-size: 15px;
+    }
+    .footerItem2{
+       font-size: 12px;
+       text-align: center;
+    }
+}
